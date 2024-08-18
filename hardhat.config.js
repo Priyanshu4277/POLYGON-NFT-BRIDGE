@@ -10,11 +10,11 @@ require("dotenv").config();
 module.exports = {
   solidity: "0.8.18",
   networks: {
-    sepolia: {
+    amoy: {
       url: "https://polygon-amoy.blockpi.network/v1/rpc/public	",
       accounts: [process.env.PRIVATE_KEY],
     },
-    amoy: {
+    sepolia: {
       url: "https://ethereum-sepolia-rpc.publicnode.com",
       accounts: [process.env.PRIVATE_KEY],
     },
