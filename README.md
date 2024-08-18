@@ -21,25 +21,25 @@ This project involves the deployment of a 5-item NFT collection using Bing AI-ge
 
 ### Installation
 
-1. Clone this repository: `git clone https://github.com/Priyanshu4277/POLYGON-NFT-BRIDGE`
-2. Navigate to the project folder: `cd POLY-MOD-1`
+1. Clone this repository: `git clone https://github.com/Priyanshu4277/POLYGON-NFT-BRIDGE.git`
+2. Navigate to the project folder.
 3. Install dependencies: `npm install`
 ### Wallet Config
-- Network name : Goerli
-- New RPC URL : https://rpc.ankr.com/eth_goerli
+- Network name : Sepolia
+- New RPC URL : https://polygon-amoy.blockpi.network/v1/rpc/public
 - Chain ID : 5
 - Currency Symbo : ETH
-- Block Explorer URL : https://goerli.etherscan.io
+- Block Explorer URL : https://ethereum-sepolia-rpc.publicnode.com
 > Block Explorer URL is Optional
 ### Contract Name and Symbol
 
 ```solidity
-contract IGNIS is ERC721A
+contract Rambat is ERC721A
 ```
-Name : IGNIS  
-Symbol :IGN 
+Name : Rambat  
+Symbol :RAB
 
-The `IGNIS` contract extends the `ERC721A` contract and represents a collection of unique NFTs inspired by the Naruto series.
+The `Rambat` contract extends the `ERC721A` contract and represents a collection of unique NFTs inspired by the DC Comic universe and batman series.
 
 ### Maximum Quantity of Tokens
 
@@ -52,7 +52,7 @@ The `maxLimit` variable sets the maximum number of NFTs that can be minted withi
 ### Base URL for NFTs (IPFS Base URL)
 
 ```solidity
-string baseUrl = "https://gateway.pinata.cloud/ipfs/QmWN2HtXeiuUyexaySd1EA4pmDeKm3MgUsUDqQ8M5Hdcr4";
+string baseUrl = "https://gateway.pinata.cloud/ipfs/QmbGv2EgvbsBWKjF2oJU5yQ2Q6H165fnkUiuPqfyBT74fq/";
 ```
 
 The `baseUrl` variable defines the base URL for the NFTs' metadata. This URL will be combined with the token ID to form the complete URL for accessing each NFT's metadata stored on the IPFS platform.
@@ -84,20 +84,6 @@ string public prompt = "Ram Man VS Batman, conceptual art, cinematic, poster. ";
 ### Check Balance 
 1. Edit the `getBalance.js` script with required details.
 2. Run the script: `npx hardhat run scripts/getBalance.js --network mumbai`
-## Explorer Used
-- [Goerli Testnet Explorer](https://goerli.etherscan.io)
-- [Polygon PoS Chain Testnet Explorer](https://mumbai.polygonscan.com)
 ## Authors
 
-- B Gautham Naidu
-- bgautham27@gmail.com
-- @gautham2k3: [GitHub Profile](https://github.com/gautham2k3)
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-
-## Help
-
-For common issues, refer to the troubleshooting section in the official Hardhat documentation or Feel free to reach out to me via email.
+- Priyanshu Vasava
