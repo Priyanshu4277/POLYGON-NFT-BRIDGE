@@ -1,16 +1,10 @@
 # NFT Collection Deployment and Transfer 
-## >> Important Update << 
-### 🔴 ETH Goerli Network Shutdown (April 2024)
-### 🔴 Polygon Mumbai Shutdown (April 2024)
-### 🔴 This Project Wont Work until FxRoot Supports in Sepolia and Amoy Testnets 
-> Goerli to Mumbai Bridge
+
+> Sepolia to Amoy Bridge
 
 > Can Be Bridged between ETHERIUM and POLYGON Blockchain
 
 > Used ERC721A for less Gas consumption
-
-[<img src="https://img.youtube.com/vi/AWMgQggm5CI/maxresdefault.jpg" width="600" height="300"
-/>](https://www.youtube.com/embed/AWMgQggm5CI)
 
 ## Description
 
@@ -22,12 +16,12 @@ This project involves the deployment of a 5-item NFT collection using Bing AI-ge
 
 * Node.js and npm installed.
 * Hardhat Ethereum development environment set up.
-* Metamask Configured to Goerli Testnet
-* Test Goerli in Account in Testnet Network
+* Metamask Configured to Sepolia Testnet
+* Test Sepolia in Account in Testnet Network
 
 ### Installation
 
-1. Clone this repository: `git clone https://github.com/gautham2k3/POLY-MOD-1.git`
+1. Clone this repository: `git clone https://github.com/Priyanshu4277/POLYGON-NFT-BRIDGE`
 2. Navigate to the project folder: `cd POLY-MOD-1`
 3. Install dependencies: `npm install`
 ### Wallet Config
