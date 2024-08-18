@@ -68,22 +68,22 @@ string public prompt = "Ram Man VS Batman, conceptual art, cinematic, poster. ";
 
 1. Create an `.env` file and set your Ethereum wallet private key.
 2. Configure Hardhat network settings in `hardhat.config.js`.
-3. Run the deployment script: `npx hardhat run scripts/DEPLOY.js --network goerli`
+3. Run the deployment script: `npx hardhat run scripts/DEPLOY.js --network sepolia`
 
 ### Batch Mint NFTs
 
 1. Edit the `MINT.js` script with required details.
-2. Run the script: `npx hardhat run scripts/MINT.js --network goerli`
+2. Run the script: `npx hardhat run scripts/MINT.js --network sepolia`
 
 ### Batch Transfer NFTs to Polygon Mumbai
 
 1. Set up FxPortal Bridge for Ethereum to Polygon transfer.
 2. Edit the `TransferTokens.js` script with necessary details.
-3. Run the script: `npx hardhat run scripts/TransferTokens.js --network goerli`
+3. Run the script: `npx hardhat run scripts/TransferTokens.js --network sepolia`
 
 ### Check Balance 
 1. Edit the `getBalance.js` script with required details.
-2. Run the script: `npx hardhat run scripts/getBalance.js --network mumbai`
+2. Run the script: `npx hardhat run scripts/getBalance.js --network amoy`
 ## Authors
 
 - Priyanshu Vasava
